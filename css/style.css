@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+}
+
+/* Header*/
+
+header{
+    height: 110vh;
+    background-image: url(../images/background.jpg);
+    background-color: hsla(0, 0%, 13%, 0.8);
+    background-blend-mode: multiply;
+    background-position: center;
+}
+
+.container .left{
+    margin-left: 45px;
+}
+
+.container .left img{
+    width: 200px;
+}
+
+.container .right{
+    margin-right: 40px;
+}
+
+.container .right a{
+    list-style: none;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header .main-text{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text h1{
+    text-align: center;
+    color: white;
+    font-size: 3.125rem;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.main-text h2{
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.main-text p{
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Manrope', sans-serif;
+}
+
+.main-text p input{
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    height: 60px!important;
+    min-width: 450px;
+    font-size: 1.5rem;
+    padding: 5px 15px;
+}
+
+.main-text p a{
+    color: white;
+    text-decoration: none;
+    border: 3px solid #e50914;
+    padding: 5px 15px;
+    background-color: #e50914;
+    font-size: 1.5rem;
+}
+
+main{
+    background-color: rgb(0, 0, 0);
+    height: auto;
+    margin-top: 5px;
+    padding: 70px 45px;
+}
+
+main .container .left h1{
+    font-size: 3.5rem;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+}
+
+main .container .left p{
+    font-size: 1.8rem;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+}
+
+main .container .right{
+    width: 50%;
+}
+
+main .container .right img{
+    border: 0;
+    height: auto;
+    max-width: 100%;
+}
+
+.player{
+    background-color: black;
+    margin-top: 5px;
+    height: auto;
+    padding: 75px 45px;
+}
+
+.player .container .right h1{
+    font-size: 3.5rem;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+}
+
+.player .container .right p{
+    font-size: 1.8rem;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+}
+
+.player .container .left img{
+    border: 0;
+    height: auto;
+    width: auto;
+}
+
+.children{
+    height: auto;
+    padding: 75px 45px;
+    background-color: black;
+    margin-top: 5px;
+}
+
+.children .container .right, .children .container .left{
+    width: 50%;
+}
+
+.children .container .left h1{
+    font-size: 3.5rem;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+}
+
+.children .container .left p{
+    font-size: 1.8rem;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+}
+
+.children .container .right img{
+    border: 0;
+    height: auto;
+    width: auto;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    background-color: black;
+    margin-top: 5px;
+    padding: 75px 45px;
+}
+
+footer ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 15px;
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+}
+
+footer ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: gray;
+}
+/*utility class*/
+
+.primary-btn{
+    border: 3px solid #e50914;
+    padding: 7px 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #e50914;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.secondry-btn{
+    border: 3px solid white;
+    padding: 7px 17px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+}
